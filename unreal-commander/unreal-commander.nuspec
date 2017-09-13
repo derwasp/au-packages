@@ -7,12 +7,12 @@
     <authors>Max Diesel</authors>
     <owners>derwasp</owners>
     <summary>Unreal Commander is freeware file manager for Windows® XP/Vista/7/8/10.</summary>
-    <iconUrl>http://cdn.rawgit.com/derwasp/chocolatey.packages/master/unreal-commander/unreal-commander.png</iconUrl>
+    <iconUrl>http://cdn.rawgit.com/derwasp/au-packages/master/unreal-commander/unreal-commander.png</iconUrl>
     <projectUrl>http://x-diesel.com/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Unreal Commander is freeware file manager for Windows® XP/Vista/7/8/10.</description>
     <tags>Unreal Commander admin</tags>
-    <packageSourceUrl>https://github.com/derwasp/choco/raw/master/unreal-commander</packageSourceUrl> 
+    <packageSourceUrl>https://github.com/derwasp/au-packages/raw/master/unreal-commander</packageSourceUrl> 
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
