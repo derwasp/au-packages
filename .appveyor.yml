@@ -21,7 +21,7 @@ environment:
   # Github token to commit pushed packages to repository
   github_user_repo: derwasp/au-packages
   github_api_key:
-    secure: aBUp6noosGdD815FcSagjbgzrhmV/8qHBqImNNqBYncq/oRCsOFawYzA0D0DjDr4 #https://ci.appveyor.com/tools/encrypt
+    secure: oUJ9i4mHx8VyF4DEfEjMjIc6RFuFPmYwHp/Uovc3gxNFX6ctt0SV2W6wDElGv1RT #https://ci.appveyor.com/tools/encrypt
 
 
   # # Mail credentials - for error notifications
