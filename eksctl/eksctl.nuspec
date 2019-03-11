@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>eksctl</id>
+    <title>eksctl</title>
+    <version>0.0.0</version>
+    <authors>weaveworks</authors>
+    <owners>derwasp</owners>
+    <summary>eksctl is a simple CLI tool for creating clusters on EKS - Amazon's new managed Kubernetes service for EC2. It is written in Go, and uses CloudFormation.</summary>
+    <iconUrl>https://eksctl.io/assets/images/gophers.png</iconUrl>
+    <projectUrl>https://eksctl.io/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>eksctl is a simple CLI tool for creating clusters on EKS - Amazon's new managed Kubernetes service for EC2. It is written in Go, and uses CloudFormation.</description>
+    <tags>eksctl eks kubernetes aws admin</tags>
+    <packageSourceUrl>https://github.com/derwasp/au-packages/raw/master/eksctl</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
