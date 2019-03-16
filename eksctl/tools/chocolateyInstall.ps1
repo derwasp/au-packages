@@ -12,4 +12,3 @@ $packageArgs = @{
   unzipLocation          = $installDir
 }
 Install-ChocolateyZipPackage @packageArgs
-
