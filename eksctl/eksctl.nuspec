@@ -14,6 +14,7 @@
     <packageSourceUrl>https://github.com/derwasp/au-packages/raw/master/eksctl</packageSourceUrl>
     <projectSourceUrl>https://github.com/weaveworks/eksctl</projectSourceUrl>
     <licenseUrl>https://github.com/weaveworks/eksctl/blob/master/LICENSE</licenseUrl>
+    <bugTrackerUrl>https://github.com/weaveworks/eksctl/issues</bugTrackerUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
