@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>dmg2img</id>
+    <title>dmg2img</title>
+    <version>0.0.0</version>
+    <authors>vu1tur</authors>
+    <owners>derwasp</owners>
+    <summary>DMG2IMG is an Apple's compressed dmg to standard (hfsplus) image disk file convert tool..</summary>
+    <projectUrl>http://vu1tur.eu.org/tools/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>DMG2IMG is an Apple's compressed dmg to standard (hfsplus) image disk file convert tool..</description>
+    <tags>dmg2img dmg img convert admin</tags>
+    <packageSourceUrl>https://github.com/derwasp/au-packages/raw/master/dmg2img</packageSourceUrl>
+    <projectSourceUrl>http://vu1tur.eu.org/tools/</projectSourceUrl>
+    <licenseUrl>http://vu1tur.eu.org/tools/LICENSE</licenseUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
