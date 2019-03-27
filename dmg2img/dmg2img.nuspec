@@ -3,7 +3,7 @@
   <metadata>
     <id>dmg2img</id>
     <title>dmg2img</title>
-    <version>0.0.0</version>
+    <version>1.6.7</version>
     <authors>vu1tur</authors>
     <owners>derwasp</owners>
     <summary>DMG2IMG is an Apple's compressed dmg to standard (hfsplus) image disk file convert tool..</summary>
