@@ -1,4 +1,5 @@
-﻿
+$ErrorActionPreference = 'Stop';
+
 $installDir = Split-Path $MyInvocation.MyCommand.Definition
 Write-Host "dmg2img is going to be installed in '$installDir'"
 
