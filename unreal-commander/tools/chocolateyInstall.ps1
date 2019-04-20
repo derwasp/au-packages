@@ -5,9 +5,9 @@ $ErrorActionPreference = 'Stop';
 $packageArgs = @{
   packageName            = 'unreal-commander'
   fileType               = 'exe'
-  url                    = 'http://unrealcommander.biz/download/evolution/uncomsetup3.57(build1409).exe'
+  url                    = 'http://x-diesel.org/download/evolution/uncomsetup3.57(build1412).exe'
 
-  checksum               = '4661c03e11cf1009f93ba8b9e414824c69592d48af5f8b388511618ea10b70ef'
+  checksum               = 'c10c736dd281d2354e1d02e9c1fc943303200a308596851f7a04d7c361f57719'
 
   checksumType           = 'sha256'
 
