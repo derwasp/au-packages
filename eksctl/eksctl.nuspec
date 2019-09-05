@@ -3,7 +3,7 @@
   <metadata>
     <id>eksctl</id>
     <title>eksctl</title>
-    <version>0.4.3</version>
+    <version>0.5.0</version>
     <authors>weaveworks</authors>
     <owners>derwasp</owners>
     <summary>eksctl is a simple CLI tool for creating clusters on EKS - Amazon's new managed Kubernetes service for EC2. It is written in Go, and uses CloudFormation.</summary>
