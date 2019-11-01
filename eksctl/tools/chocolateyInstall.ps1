@@ -6,8 +6,8 @@ $ErrorActionPreference = 'Stop';
 
 $packageArgs = @{
   packageName            = 'eksctl'
-  url64bit               = 'https://github.com/weaveworks/eksctl/releases/download/0.7.0/eksctl_Windows_amd64.zip'
-  checksum64             = 'd86672b3f3e78f44160b902f1cbdf3eba3d1f527d6f7fb32291fd65841fae3e4'
+  url64bit               = 'https://github.com/weaveworks/eksctl/releases/download/0.8.0/eksctl_Windows_amd64.zip'
+  checksum64             = 'c2290f494054d4a3730289d78b89872c6280ef423cec9a7195a233d0df40ad82'
   checksumType64         = 'sha256'
   unzipLocation          = $installDir
 }
