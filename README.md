@@ -1,4 +1,3 @@
-
 [![](https://ci.appveyor.com/api/projects/status/github/derwasp/au-packages?svg=true)](https://ci.appveyor.com/project/derwasp/au-packages)
 [Update status](https://gist.github.com/derwasp/2ab3f1550e4fba3bb189692d6777c1bc)
 [![](http://transparent-favicon.info/favicon.ico)](#)
