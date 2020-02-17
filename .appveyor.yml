@@ -38,7 +38,7 @@ environment:
   gist_id: 2ab3f1550e4fba3bb189692d6777c1bc
 
   # Force test: gist id for test results
-  gist_id_test: 
+  gist_id_test:
 
   # Chocolatey API key - to push updated packages
   api_key:
@@ -66,7 +66,7 @@ install:
 
 # Uncomment the below line if you are using any of the functions from chocolatey-core.extension - https://chocolatey.org/packages/chocolatey-core.extension. Ensure you also have it listed in your package's dependencies
 # - cinst chocolatey-core.extension
-    
+
 build_script:
 - ps: |
     $ErrorActionPreference = 'Continue'
