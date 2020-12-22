@@ -11,7 +11,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>eksctl is a simple CLI tool for creating clusters on EKS - Amazon's new managed Kubernetes service for EC2. It is written in Go, and uses CloudFormation.</description>
     <tags>eksctl eks kubernetes aws admin</tags>
-    <packageSourceUrl>https://github.com/derwasp/au-packages/raw/master/eksctl</packageSourceUrl>
+    <packageSourceUrl>https://github.com/derwasp/au-packages/tree/master/eksctl</packageSourceUrl>
     <projectSourceUrl>https://github.com/weaveworks/eksctl</projectSourceUrl>
     <licenseUrl>https://github.com/weaveworks/eksctl/blob/master/LICENSE</licenseUrl>
     <bugTrackerUrl>https://github.com/weaveworks/eksctl/issues</bugTrackerUrl>
