@@ -28,6 +28,7 @@ function global:au_GetLatest {
                         $fullIndex = $index + $releases_tags_str.Length
                         $fullUrl.Substring($fullIndex)
                    } |
+                ?{-not $_.Contains("-")} |
                 Select -First 1
 
     $url = "https://github.com/weaveworks/eksctl/releases/download/$version/eksctl_Windows_amd64.zip"
