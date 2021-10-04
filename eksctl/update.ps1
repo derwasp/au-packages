@@ -31,7 +31,7 @@ function global:au_GetLatest {
                 ?{-not $_.Contains("-")} |
                 Select -First 1
 
-    $url = "https://github.com/weaveworks/eksctl/releases/download/$version/eksctl_Windows_amd64.zip"
+    $url = "https://github.com/weaveworks/eksctl/releases/download/v$version/eksctl_Windows_amd64.zip"
 
     return @{
         URL64        = $url
