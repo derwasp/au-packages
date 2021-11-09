@@ -31,6 +31,7 @@ function global:au_GetLatest {
                 ?{-not $_.Contains("-")} |
                 Select -First 1
 
+    $version = $version -replace "v",""
     $url = "https://github.com/weaveworks/eksctl/releases/download/v$version/eksctl_Windows_amd64.zip"
 
     return @{
