@@ -15,15 +15,14 @@ function global:au_GetLatest {
 
     $request = [System.Net.WebRequest]::Create($release)
     $request.AllowAutoRedirect = $false
-    $request.GetResponse()
 
     $wr = $request.GetResponse()
-    $wr.Headers["Location"]
-
+    $wr
     $url = $wr.Headers["Location"]
+    $url
 
-    $url -match 'uncomsetup(.+)\.(.+)\(build(.+)\)\.'
-    $version = $Matches[1] + "." + $Matches[2] + "." + $Matches[3]
+    $url -match 'uncomsetup(.+)\.([0-9]+)(.*)\(build(.+)\)\.'
+    $version = $Matches[1] + "." + $Matches[2] + "." + $Matches[4]
 
     @{
         URL32   = $url
