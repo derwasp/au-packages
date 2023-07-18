@@ -4,7 +4,7 @@
     <id>eksctl</id>
     <title>eksctl</title>
     <version>0.63.0</version>
-    <authors>weaveworks</authors>
+    <authors>eksctl.io</authors>
     <owners>derwasp</owners>
     <summary>eksctl is a simple CLI tool for creating clusters on EKS - Amazon's new managed Kubernetes service for EC2. It is written in Go, and uses CloudFormation.</summary>
     <projectUrl>https://eksctl.io/</projectUrl>
@@ -12,9 +12,9 @@
     <description>eksctl is a simple CLI tool for creating clusters on EKS - Amazon's new managed Kubernetes service for EC2. It is written in Go, and uses CloudFormation.</description>
     <tags>eksctl eks kubernetes aws admin</tags>
     <packageSourceUrl>https://github.com/derwasp/au-packages/tree/master/eksctl</packageSourceUrl>
-    <projectSourceUrl>https://github.com/weaveworks/eksctl</projectSourceUrl>
-    <licenseUrl>https://github.com/weaveworks/eksctl/blob/master/LICENSE</licenseUrl>
-    <bugTrackerUrl>https://github.com/weaveworks/eksctl/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/eksctl-io/eksctl</projectSourceUrl>
+    <licenseUrl>https://github.com/eksctl-io/eksctl/blob/master/LICENSE</licenseUrl>
+    <bugTrackerUrl>https://github.com/eksctl-io/eksctl/issues</bugTrackerUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
